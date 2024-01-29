@@ -92,7 +92,7 @@ export const reviews = [
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Products",  
         links: [
             { name: "Air Force 1", link: "/" },
             { name: "Air Max 1", link: "/" },
