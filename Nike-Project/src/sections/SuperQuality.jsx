@@ -3,7 +3,7 @@ import { shoe8 } from "../assets/images"
 
 const SuperQuality = () => {
   return (
-    <section id="SuperQuality" className="xl:w-full flex flex-col gap-10 lg:flex-row justify-between items-center max-container">
+    <section id="SuperQuality" className="xl:w-full flex flex-col gap-10 lg:flex-row justify-between items-center max-container lg:pt-28">
       <div className="lg:max-w-lg flex flex-col">
         <p className="lg:max-w-lg   font-palanquin text-4xl font-bold">We Provide You <span className="text-coral-red">Super Quality</span> Shoes</p>
 

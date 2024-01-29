@@ -4,7 +4,7 @@ import { footerLinks, socialMedia } from "../constants"
 
 const Footer = () => {
   return (
-    <footer className="max-container flex flex-col justify-start gap-10 w-full ">
+    <footer id="Footer" className="max-container flex flex-col justify-start gap-10 w-full ">
 
       <div className="flex flex-col gap-20 justify-between lg:flex-row">
       <div className="flex flex-col gap-5 text-white-400 max-w-sm">
