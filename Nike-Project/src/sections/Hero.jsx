@@ -13,17 +13,16 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
   return (
     <section 
     id="Home"
-    className="w-full h-28 flex 
-    xl:flex-row flex-col justify-center min-h-[120vh]
-    max-container
-    "
+    className="w-full flex 
+    xl:flex-row flex-col justify-center min-h-screen gap-10
+    max-container"
     >
 
-<div className="relative xl:w-[48%]  flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 pl-16">
+<div className="relative xl:w-[48%]  flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
 
   <p className=" font-montserrat text-xl text-coral-red">Our Summer Collection</p>
 
-  <h1 className="text-8xl  xl:whitespace-nowrap z-10 pr-10 font-palanquin leading-none mt-10 max-sm:text-[72px] max-sm:leading-[80px] xl:font-bold"><span className="xl:bg-white xl:rounded-3xl pr-5">The New Arrival</span>
+  <h1 className="text-8xl  xl:whitespace-nowrap z-10 pr-10 font-palanquin leading-none mt-10 max-sm:text-[72px] max-sm:leading-[80px] font-bold"><span className="xl:bg-white xl:rounded-3xl pr-5">The New Arrival</span>
  
   <br /> 
   
@@ -56,7 +55,7 @@ justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-c
   className="object-contain z-10 pb-10"
   />
 
-  <div className="flex absolute sm:gap-6  -bottom-[5%]">
+  <div className="flex absolute sm:gap-6 gap-4 -bottom-[5%]">
     {shoes.map((image, index)=>(  
       <div key={index}>
         <ShoeCard

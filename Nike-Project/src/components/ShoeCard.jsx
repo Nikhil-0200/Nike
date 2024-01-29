@@ -22,11 +22,12 @@ const ShoeCard = (props) => {
     onClick={handleClick}
     >
 
-<div className="flex justify-center items-center bg-card bg-center bg-cover h-[160px]">
+<div className="flex justify-center items-center bg-card bg-center bg-cover w-30 h-30 sm:w-40 sm:h-40 max-sm:p-4">
   <img src={props.imgURL.thumbnail} 
   alt="Shoe Collection"
-  width={160}
-  className="object-fit"
+  width={127}
+  height={103.34}
+  className="object-contain"
   />
 </div>
     </div>
