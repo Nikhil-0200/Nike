@@ -10,17 +10,15 @@ Welcome to the Nike Clone project! This project is a web application that replic
 
 ## Pages and features
 
-![Project Screenshot](https://github.com/Nikhil-0200/MACYS-CLONE/blob/main/MACYS%20SS%20FOR%20POR.png)
+![Project Screenshot](https://github.com/Nikhil-0200/Nike/blob/main/nikhil-nike.netlify.png)
 
 
 
 ## Features
 
-- [x] Browse and view products in various categories
-- [x] Add products to the shopping cart
-- [x] Remove products from the shopping cart
-- [x] Proceed to checkout and make a payment
-- [x] Fetching Data From API
-- [x] Loading Implemented
+- [x] **Browse Shoes:** View various shoes across different categories.
+- [x] **Responsive Design:** Works well on both mobile and desktop.
+- [x] **Interactive Display:** Click to view detailed bike information.
+
 
 
