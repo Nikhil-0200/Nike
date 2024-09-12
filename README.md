@@ -1,4 +1,4 @@
-## Macy's Clone Project
+## Nike Clone Project
 
 Welcome to the Nike Clone project! This project is a web application that replicates the functionality and design of the Nike Webiste.
 
